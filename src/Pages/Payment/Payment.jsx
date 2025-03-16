@@ -8,7 +8,7 @@ import { DataContext } from "../../components/DataProvider/DataProvider";
 import ProductCard from "../../components/Product/ProductCard";
 // import { toast } from 'react-toastify';
 import { useNavigate } from "react-router-dom";
-import { Type } from "../../Utility/action.type";
+import { Type } from "../../Utility/actiontype";
 import { axiosInstance } from "../../Api/axios";
 import { db } from "../../Utility/firebase";
 import CurrencyFormat from "../../components/CurrencyFormat/CurrencyFormat";

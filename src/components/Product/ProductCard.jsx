@@ -5,7 +5,7 @@ import classes from "./Product.module.css";
 import CurrencyFormat from "../CurrencyFormat/CurrencyFormat";
 import Rating from "@mui/material/Rating";
 import { Link } from "react-router-dom";
-import { Type } from "../../utility/action.type";
+import { Type } from "../../Utility/actiontype";
 
 function ProductCard({ product, flex, renderDesc, renderAdd }) {
   const { image, title, id, price, rating, description } = product;

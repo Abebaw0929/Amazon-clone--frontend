@@ -3,7 +3,7 @@ import LayOut from "../../components/LayOut/LayOut";
 import { DataContext } from "../../components/DataProvider/DataProvider";
 import { Link } from "react-router-dom";
 import CurrencyFormat from "../../components/CurrencyFormat/CurrencyFormat";
-import { Type } from "../../Utility/action.type";
+import { Type } from "../../Utility/actiontype";
 
 import { IoIosArrowUp } from "react-icons/io";
 

@@ -7,7 +7,7 @@ import Product from "./components/Product/Product";
 import Routing from "./Router";
 import { auth } from "./Utility/firebase";
 import { DataContext } from "./components/DataProvider/DataProvider";
-import { Type } from "./utility/action.type";
+import { Type } from "./Utility/actiontype";
 function App() {
   const [{ user }, dispatch] = useContext(DataContext);
   useEffect(() => {
