@@ -1,5 +1,4 @@
-
-import { Type } from "./action.type";
+import { Type } from "./actiontype";
 
 export const initialState = { basket: [], user: null };
 export const reducer = (state, action) => {
